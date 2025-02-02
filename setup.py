@@ -6,9 +6,9 @@ setup(
     description='A CLI-based penetration testing tool with reconnaissance and AI-driven exploits.',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
-    author='Your Name',
-    author_email='your.email@example.com',
-    url='https://github.com/yourusername/flashtest',
+    author='Shubham Parida',
+    author_email='paridashub9871@gmail.com',
+    url='https://github.com/shubham-parida01/flashtest',
     packages=find_packages(),
     classifiers=[
         'Programming Language :: Python :: 3',
