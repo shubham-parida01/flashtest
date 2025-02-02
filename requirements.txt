@@ -1,0 +1,6 @@
+argparse
+requests
+transformers
+shodan
+nmapthon2
+sublist3r
