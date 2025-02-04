@@ -1,12 +1,16 @@
 from .scanner import scan_nmap, sql_injection_test, scan_nikto
-from .ai_exploit import suggest_exploit
-from .recon import shodan_lookup, enumerate_subdomains
+from .ai_exploit import ai_exploit
+from .recon import get_dns_info, get_whois_info, get_ip_info
 
 __all__ = [
     "scan_nmap",
     "sql_injection_test",
     "scan_nikto",
-    "suggest_exploit",
+    "ai_exploit",
+    "get_dns_info",
+    "get_whois_info",
+    "get_ip_info",
     "shodan_lookup",
     "enumerate_subdomains",
+
 ]

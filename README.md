@@ -10,23 +10,12 @@ Flashtest is a powerful CLI-based penetration testing tool designed to assist in
   
 ## Installation
 
-### 1. Clone the repository or download the source code:
+### Install via pip:
 ```bash
-git clone https://github.com/yourusername/flashtest.git
-cd flashtest
+pip install flashtest
 ```
 
-### 2. Install dependencies:
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Install `flashtest` globally:
-```bash
-python setup.py install
-```
-
-### 4. Verify the installation:
+### Verify the installation:
 ```bash
 flashtest --help
 ```

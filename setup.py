@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='flashtest',
-    version='0.1.0',
+    version='0.1.5',
     description='A CLI-based penetration testing tool with reconnaissance and AI-driven exploits.',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
@@ -16,8 +16,7 @@ setup(
         'Operating System :: OS Independent',
     ],
     install_requires=[
-        'requests',
-        'subprocess',  # Used for running external commands (such as dig)
+        'requests',  # Used for running external commands (such as dig)
         'whois',       # For WHOIS lookups
     ],
     entry_points={
